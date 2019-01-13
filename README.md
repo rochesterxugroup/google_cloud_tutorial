@@ -24,9 +24,9 @@
 
      - Then a conformation email will be sent to your gmail. The request will be approved by email notification within a few hours
 
-   - Go to [Deep Learning VM](https://cloud.google.com/deep-learning-vm/docs/pytorch_start_instance), follow the instruction of subsection *With one or more GPUs* in section *Creating a PyTorch Deep Learning VM instance from the Cloud Marketplace*. set up the VM instance by refering PyTorch Instance with one ore more GPUs. 
+   - Having been approved for the GPU request, go to [Deep Learning VM](https://cloud.google.com/deep-learning-vm/docs/pytorch_start_instance) and follow the instruction of subsection *With one or more GPUs* in section *Creating a PyTorch Deep Learning VM instance from the Cloud Marketplace*. A simpler configuration is as follow. 
 
-     - After Launch on Compute Engine, you can configure the VM as ![VMconfig](./images/VMconfig.png)
+     - After clicking **Launch on Compute Engine**, you can configure the VM as ![VMconfig](./images/VMconfig.png)
 
    - Once the VM has been deployed, the page will update with instructions for accessing the instance as ![](). Remember the ssh connection command to the VM.
 
