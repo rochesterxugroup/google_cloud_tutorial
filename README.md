@@ -18,15 +18,15 @@
 
      - Update your account. **After updating your account, your billing account will be charged automatically since the $300 promotion runs out. So remember to unbind the billing account in time.**
 
-     - Filter the metric, edit quota and send a GPU request.![quota1](/Users/jshi/Dropbox/course/CSC249Machine_Vision/images/quota1.png)
+     - Filter the metric, edit quota and send a GPU request.![quota1](./images/quota1.png)
 
-       ![quota2](/Users/jshi/Dropbox/course/CSC249Machine_Vision/images/quota2.png)
+       ![quota2](./images/quota2.png)
 
      - Then a conformation email will be sent to your gmail. The request will be approved by email notification within a few hours
 
    - Go to [Deep Learning VM](https://cloud.google.com/deep-learning-vm/docs/pytorch_start_instance), follow the instruction of subsection *With one or more GPUs* in section *Creating a PyTorch Deep Learning VM instance from the Cloud Marketplace*. set up the VM instance by refering PyTorch Instance with one ore more GPUs. 
 
-     - After Launch on Compute Engine, you can configure the VM as ![VMconfig](/Users/jshi/Dropbox/course/CSC249Machine_Vision/images/VMconfig.png)
+     - After Launch on Compute Engine, you can configure the VM as ![VMconfig](./images/VMconfig.png)
 
    - Once the VM has been deployed, the page will update with instructions for accessing the instance as ![](). Remember the ssh connection command to the VM.
 
