@@ -1,29 +1,27 @@
-## Install cloud sdk
-
-`conda create -n python2.7 python=2.7`
-
-`source activate python2.7`
-
-install [google cloud sdk](https://cloud.google.com/sdk/docs/quickstart-macos#before-you-begin)
-
 ## Configure cloud project
 
 1. **Create a new cloud project [here](https://console.cloud.google.com/cloud-resource-manager).**
 
-   You will need a google account with a billing account. Don't worry, every new account have 300$ promotion.
+   - You need a google account to log in.
+   - When entering the above link, click `+CREATE PROJECT`, you will go to a new page.
+   - Accept the term of service.
+   - Enter the project name, such as 'csc249'.
+   - Click `CREATE`.
+   - There is a $300 promotion at the top of the page, click `ACTIVATE`
+   - Filling out the payment page, which requires your payment method. But no worry, you have free $300 promotion and wont't be charged. Finally, click `START MY FREE TRIAL`
+     **You won’t be charged unless you manually upgrade to a paid account**.
 
-2. **Enabling billing**
 
-   If your google accout only have one account, skip it. If you have many account, select one of them for the payment of the ML-engine by referring [here](https://support.google.com/cloud/answer/6293499#enable-billing).
-
-3. **Start ML-API**
+2. **Start DEEP-LEARNING-API**
 
    - Since we are using GPUs, we need to acquire the number of GPUs in [Quotas](https://console.cloud.google.com/quotas?_ga=2.186016044.-444096342.1547227127). The specific steps are as follows:
 
-     - go to the quota page and set Metric as GPUs(all region) as ![GitHub Logo](https://www.dropbox.com/s/snfczgt8i04umjb/Screenshot%202019-01-12%2014.47.01.png?dl=0)
-     - Update your account and sent the request to let your GPU number to be one.
+     - Update your account. **After updating your account, your billing account will be charged automatically since the $300 promotion runs out. So remember to unbond the billing account in time.**
+     - Filter the metric as following: 
+     - Edit the quota and send a GPU request.
+     - Then a conformation email will be sent to your gmail. The request will be approved by email notification within a few hours
 
-   - Go to [Deep Learning VM](https://cloud.google.com/deep-learning-vm/docs/pytorch_start_instance) to set up the VM instance by refering PyTorch Instance with one ore more GPUs.
+   - Go to [Deep Learning VM](https://cloud.google.com/deep-learning-vm/docs/pytorch_start_instance), follow the instruction of subsection *With one or more GPUs* in section *Creating a PyTorch Deep Learning VM instance from the Cloud Marketplace*. set up the VM instance by refering PyTorch Instance with one ore more GPUs.
 
    - deployment Manager https://console.cloud.google.com/dm/deployments?project=testpytorch-228322
 
@@ -42,8 +40,19 @@ install [google cloud sdk](https://cloud.google.com/sdk/docs/quickstart-macos#be
    By refering [here](https://cloud.google.com/deep-learning-vm/docs/pytorch_start_instance), select with one or more GPUs.
 
    
+3. **Enabling billing**
+
+   If your google accout only have one account, skip it. If you have many account, select one of them for the payment of the ML-engine by referring [here](https://support.google.com/cloud/answer/6293499#enable-billing).
 
    
+## Install cloud sdk
+
+`conda create -n python2.7 python=2.7`
+
+`source activate python2.7`
+
+install [google cloud sdk](https://cloud.google.com/sdk/docs/quickstart-macos#before-you-begin)
+
 
    
 
