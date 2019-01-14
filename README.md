@@ -41,7 +41,7 @@ Having been approved for the GPU request, go to [Deep Learning VM](https://cloud
 ## 3. Install cloud sdk and connect to VM <a name="cloudsdk"></a>
 
 - Go to the [sdk quickstart](https://cloud.google.com/sdk/docs/quickstarts) page and select the suitable OS. Follow the instructions when you can successfully finish `gcloud init`.
-- run the ssh command copied from [step 2 (b)](#configVM). The ssh command template is `gcloud compute ssh --project YOUR_PROJECT_NAME --zone YOUR_ZONE_NAME YOUR_VM_NAME -- -L 8080:localhost:8080`
+- Run the ssh command copied from [step 2 (b)](#configVM). The ssh command template is `gcloud compute ssh --project YOUR_PROJECT_NAME --zone YOUR_ZONE_NAME YOUR_VM_NAME -- -L 8080:localhost:8080`
 - Now you have done! 
 
 ## 4. Manage your VM instance and bill.
