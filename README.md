@@ -7,7 +7,7 @@ Create a new cloud project [here](https://console.cloud.google.com/cloud-resourc
 - You need a google account to log in.
 - When entering the above link, click `+CREATE PROJECT`, you will go to a new page.
 - Accept the term of service.
-- Enter the project name, such as 'csc249'.
+- Enter the project name, such as 'csc577'.
 - Click `CREATE`.
 - There is a \$300 promotion at the top of the page, click `ACTIVATE`
 - Filling out the payment page, which requires your payment method. But no worry, you have free \$300 promotion and wont't be charged. Finally, click `START MY FREE TRIAL`
